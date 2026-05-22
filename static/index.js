@@ -193,6 +193,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             src: "./static/music/tap.mp3",
             id: "tap"
         });
+        
+        createjs.Sound.registerSound({
+            src: "./static/music/CryForMe.mp3",
+            id: "CryforMe"
+        });
         gameRestart();
     }
 
